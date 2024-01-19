@@ -24,7 +24,8 @@
 ### Importing OpenZepplin contracts
 Note: Curremtly the devnet does not support solidity ^0.8.20. OpenZepplin v5 upgraded all contracts to solidity 0.8.20 so you will need to import OpenZepplin v4.9. 
 
-Example erc20 import
+*Example erc20 import*
+
 `import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.0/contracts/token/ERC20/ERC20.sol";`
 
 
