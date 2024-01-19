@@ -21,6 +21,12 @@
 - [Devnet Oracle Contract](https://evm-sidechain.xrpl.org/address/0xdE2022A8aB68AE86B0CD3Ba5EFa10AaB859d0293/read-contract#address-tabs)
 - [Band Protocol's Solidity Standard Reference Contracts](https://github.com/bandprotocol/band-std-reference-contracts-solidity)
 
+### Importing OpenZepplin contracts
+Note: Curremtly the devnet does not support solidity ^0.8.20. OpenZepplin v5 upgraded all contracts to solidity 0.8.20 so you will need to import OpenZepplin v4.9. 
+
+Example erc20 import
+`import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.0/contracts/token/ERC20/ERC20.sol";`
+
 
 # Fetch price contract demo
 
